@@ -1,0 +1,35 @@
+.accountPage {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.accountPage .container {
+    width: 70%;
+    height: 100%;
+}
+.accountPage .container .titleContainer {
+    color: #606060;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 25px;
+}
+
+.accountPage .container .titleContainer h1{
+    font-weight: 500;
+}
+
+.accountPage .container .titleContainer hr{
+    width: 40%;
+    
+}
+.accountPage .container .bodyContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.accountPage .container .bodyContainer img {
+    width: 100px;
+    border-radius: 50%;
+}

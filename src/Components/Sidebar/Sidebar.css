@@ -1,0 +1,40 @@
+.sidebarRows {
+    height: auto;
+    padding: 0;
+}
+.sidebarRows .row{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #606060;
+    font-family: Roboto, Arial, sans-serif;
+}
+.sidebarRows .row:hover{
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+.sidebarRows .row #iconContainer{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.sidebarRows .row #titleContainer{
+    flex: 70%;
+}
+.sidebarRows .row #titleContainer h3{
+    font-weight: bold;
+    font-size: 15px;
+}
+#active {
+    background-color: rgb(238, 238, 238);
+}
+
+#active #iconContainer{
+    color: red;
+}
